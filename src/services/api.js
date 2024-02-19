@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://ec2-54-91-111-1.compute-1.amazonaws.com:8000";
+const API_URL = "https://cors-anywhere.herokuapp.com/http://ec2-54-91-111-1.compute-1.amazonaws.com:8000";
 
 export const saveData = async (data) => {
   try {
